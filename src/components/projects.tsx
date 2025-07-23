@@ -7,30 +7,30 @@ import { AnimatedSection } from "@/components/animated-section"
 
 const projects = [
   {
-    id: 1,
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce platform built with Next.js and Stripe integration",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop",
-    tags: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    slug: "ecommerce-platform",
-    featured: true,
-    date: "2024",
-    client: "Tech Startup",
+      id: 1,
+      title: "Fraud Detection System",
+      description: "An intelligent system that leverages machine learning algorithms to detect suspicious transactions and prevent fraud in real-time, improving financial security.",
+      image: "/fraud-detection.jpeg",  // ✅ Local image from /public folder
+      tags: ["Machine Learning", "Python", "Flask", "Scikit-learn"],
+      githubUrl: "https://github.com/Cngh10/Fraud-Detection-Project",
+      liveUrl: "https://your-live-site.com",
+      slug: "fraud-detection-system",
+      featured: true,
+      date: "2024",
+      client: "Fintech Company"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=2039&auto=format&fit=crop",
-    tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    slug: "task-management-app",
+    title: "Employee Churn Prediction",
+    description: "A machine learning project that predicts whether an employee is likely to leave the company, helping HR make proactive retention decisions.",
+    image: "/employee-churn.png",  // ✅ Local image from public folder
+    tags: ["Python", "Pandas", "Scikit-learn", "XGBoost"],
+    githubUrl: "https://github.com/Cngh10/Employee-churn-prediction-",
+    liveUrl: "https://your-live-site.com",
+    slug: "employee-churn-prediction",
     featured: true,
-    date: "2024",
-    client: "Remote Team",
+    date: "2025",
+    client: "HR Analytics Team"
   },
   {
     id: 3,
@@ -45,18 +45,32 @@ const projects = [
     date: "2023",
     client: "Data Company",
   },
+
   {
     id: 4,
-    title: "Social Media App",
-    description: "A social media platform with real-time messaging and content sharing",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2074&auto=format&fit=crop",
-    tags: ["React Native", "Firebase", "Redux", "TypeScript"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
-    slug: "social-media-app",
+    title: "Library Database Management System",
+    description: "A web-based application designed to manage library resources, user registration, and book checkouts efficiently with a user-friendly interface.",
+    image: "/library-system.jpg",  // ✅ Local image stored in /public
+    tags: ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],
+    githubUrl: "https://github.com/Cngh10/Library-Database-Management-System",
+    liveUrl: "https://your-live-site.com",
+    slug: "library-management-system",
     featured: false,
     date: "2023",
-    client: "Social Startup",
+    client: "Academic Institution"
+  },
+ {
+    id: 5,
+    title: "Predicting Solar Energy Production",
+    description: "A data science project that uses machine learning to predict annual solar energy output based on geographical and technical factors.",
+    image: "/solar.jpg.webp",  // ✅ Local image stored in /public
+    tags: ["Python", "Machine Learning", "XGBoost", "Pandas", "Matplotlib"],
+    githubUrl: "https://github.com/Cngh10/Predicting-Solar-Energy-Production",
+    liveUrl: "https://your-live-site.com",
+    slug: "solar-energy-prediction",
+    featured: true,
+    date: "2025",
+    client: "Academic Institution"
   },
 ]
 
