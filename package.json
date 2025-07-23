@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d .next/export"
+    "postbuild": "next export",
+    "deploy": "npm run build && npm run postbuild && gh-pages -d out"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
