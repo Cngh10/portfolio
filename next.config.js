@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // ✅ Enables static HTML export
+
+  basePath: '/portfolio', // ✅ Required for GitHub Pages under a subpath
+  assetPrefix: '/portfolio',
+
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -21,6 +26,6 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["lucide-react"],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
