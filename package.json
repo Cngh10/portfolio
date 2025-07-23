@@ -4,14 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "export":"next export",
-    "deploy": "npm run build && npm run export && gh-pages -d out",
-    "lint": "next lint",
-    "predeploy": "gh-pages -d build",
-    "start": "next start"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next export",
+  "start": "next start",
+  "lint": "next lint",
+  "predeploy": "npm run build && npm run export",
+  "deploy": "gh-pages -d out"
+},
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
     "@hookform/resolvers": "^3.9.1",
