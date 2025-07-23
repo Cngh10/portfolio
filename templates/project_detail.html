@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %}{{ project.title }} - Portfolio{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col">
+            <a href="{{ url_for('home') }}#projects" class="btn btn-outline-secondary mb-4">
+                <i class="fas fa-arrow-left me-2"></i>Back to Projects
+            </a>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col">
+            <h1 class="display-4 fw-bold mb-3">{{ project.title }}</h1>
+            <div class="mb-4">
+                {% for tag in project.tags %}
+                <span class="badge bg-primary me-2 mb-2">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mb-5">
+        <div class="col">
+            <div class="project-image-container">
+                <img src="{{ project.image }}" alt="{{ project.title }}" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="project-content">
+                <section class="mb-5">
+                    <h2 class="h3 fw-bold mb-3">Project Overview</h2>
+                    <p class="text-muted">{{ project.overview }}</p>
+                </section>
+                
+                <section class="mb-5">
+                    <h2 class="h3 fw-bold mb-3">Development Process</h2>
+                    <p class="text-muted">{{ project.process }}</p>
+                </section>
+                
+                <section class="mb-5">
+                    <h2 class="h3 fw-bold mb-3">Key Features</h2>
+                    <ul class="list-unstyled">
+                        {% for feature in project.features %}
+                        <li class="mb-2">
+                            <i class="fas fa-check text-primary me-2"></i>
+                            <span class="text-muted">{{ feature }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="project-sidebar">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Details</h5>
+                        <div class="project-meta">
+                            <div class="mb-3">
+                                <h6 class="fw-bold">Timeline</h6>
+                                <p class="text-muted mb-0">January 2023 - March 2023</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="fw-bold">Role</h6>
+                                <p class="text-muted mb-0">Full Stack Developer</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="fw-bold">Client</h6>
+                                <p class="text-muted mb-0">Personal Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-grid gap-2">
+                    <a href="{{ project.live_url }}" class="btn btn-primary">
+                        <i class="fas fa-globe me-2"></i>View Live Site
+                    </a>
+                    <a href="{{ project.github_url }}" class="btn btn-outline-primary">
+                        <i class="fab fa-github me-2"></i>View Source Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
