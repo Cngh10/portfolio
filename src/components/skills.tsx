@@ -32,17 +32,24 @@ const skillCategories = [
     color: "text-pink-500",
   },
   {
-    id: 6,
+    id: 5,
     title: "DevOps & Cloud",
     icon: Cloud,
     skills: ["AWS", "Docker","GitHub", "Jupyter Notebook"],
     color: "text-cyan-500",
   },
+   {
+    id: 6,
+    title: "Data Engineering",
+    icon: Code,
+    skills: ["Data cleaning", "SQL optimization", "Hadoop", "ETL pipelines", "PySpark"],
+    color: "text-gray-500",
+  },
   {
     id: 7,
     title: "Tools & Others",
     icon: Code,
-    skills: ["Data Visualization", "VS Code",],
+    skills: ["Data Visualization", "VS Code"],
     color: "text-gray-500",
   },
 ]
