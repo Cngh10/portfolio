@@ -1,11 +1,13 @@
 {
-  "name": "my-v0-project",
+  "name": "portfolio",
+  "homepage": "https://cngh10.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
     "export":"next export",
+    "deploy": "npm run build && npm run export && gh-pages -d out",
     "lint": "next lint",
     "start": "next start"
   },
