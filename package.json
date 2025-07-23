@@ -6,10 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && npm run postbuild && gh-pages -d out"
+    "deploy": "npm run build && gh-pages -d .next/export"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
