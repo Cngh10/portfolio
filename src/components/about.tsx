@@ -8,7 +8,7 @@ import { useState } from "react"
 import { ResumePDFViewer } from "@/components/resume-pdf-viewer"
 
 const stats = [
-  { icon: Award, label: "Years Experience", value: "2+" },
+  { icon: Award, label: "Years Experience", value: "0-1" },
   { icon: Users, label: "Projects Completed", value: "10+" },
   { icon: Coffee, label: "Technologies Mastered", value: "15+" },
 ]
