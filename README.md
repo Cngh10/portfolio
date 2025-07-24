@@ -5,17 +5,19 @@ I’m Chandan Mahato, a passionate software developer, ethical hacker, and final
 
 ⸻
 
-🌐 Technologies Used
-	•	Frontend: React.js (via Next.js framework)
-	•	Styling: Tailwind CSS
-	•	Deployment: Vercel
-	•	Version Control: Git & GitHub
-	•	Icons & Assets: Heroicons, Lucide React
+## 🌐 Technologies Used
 
- 
-📁 Folder Structure
+- **Frontend**: React.js (via Next.js framework)  
+- **Styling**: Tailwind CSS  
+- **Deployment**: Vercel  
+- **Version Control**: Git & GitHub  
+- **Icons & Assets**: Heroicons, Lucide React  
 
- portfolio/
+---
+
+## 📁 Folder Structure
+
+portfolio/
 ├── public/              # Static files like images and favicon
 ├── components/          # Reusable UI components
 ├── pages/               # Individual pages (Home, Projects, Contact, etc.)
@@ -27,13 +29,16 @@ I’m Chandan Mahato, a passionate software developer, ethical hacker, and final
 ├── package.json
 └── README.md
 
-🔥 Features
-	•	👨‍💻 Responsive Design – Fully responsive across devices (mobile, tablet, desktop).
-	•	🧩 Modular Components – Built with clean, reusable components using modern React patterns.
-	•	🌑 Dark Mode (Optional) – Can be added for a better user experience.
-	•	📂 Project Section – Highlights of my major development projects.
-	•	🧠 Skills Section – Visual representation of my key technical skills.
-	•	📞 Contact Section – Email and social media links for networking or hiring.
+---
+
+## 🔥 Features
+
+- 👨‍💻 **Responsive Design** – Fully responsive across devices (mobile, tablet, desktop)
+- 🧩 **Modular Components** – Built with clean, reusable components using modern React patterns
+- 🌑 **Dark Mode (Optional)** – Can be added for a better user experience
+- 📂 **Project Section** – Highlights of my major development projects
+- 🧠 **Skills Section** – Visual representation of my key technical skills
+- 📞 **Contact Section** – Email and social media links for networking or hiring
 
  🚀 How to Run Locally
 
