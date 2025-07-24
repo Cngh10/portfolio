@@ -15,8 +15,10 @@ I’m Chandan Mahato, a passionate software developer, ethical hacker, and final
 
 ---
 
+<pre lang="markdown">
 ## 📁 Folder Structure
 
+```bash
 portfolio/
 ├── public/              # Static files like images and favicon
 ├── components/          # Reusable UI components
@@ -28,6 +30,8 @@ portfolio/
 ├── next.config.js
 ├── package.json
 └── README.md
+```
+</pre>
 
 ---
 
