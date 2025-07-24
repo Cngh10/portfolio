@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ✅ Enables static HTML export
-
-  basePath: '/portfolio', // ✅ Required for GitHub Pages under a subpath
-  assetPrefix: '/portfolio',
+  reactStrictMode: true, // Optional but recommended
 
   eslint: {
     ignoreDuringBuilds: true,
@@ -21,7 +18,8 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-    unoptimized: true,
+    // You can keep `unoptimized: true` if you prefer,
+    // but Vercel optimizes images by default
   },
   experimental: {
     optimizePackageImports: ["lucide-react"],
