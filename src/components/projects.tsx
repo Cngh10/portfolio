@@ -8,16 +8,16 @@ import { AnimatedSection } from "@/components/animated-section"
 const projects = [
   {
     id: 1,
-    title: "Nepal Gov Connect",
-    description: "A full-stack web application connecting citizens with government services in Nepal. Featuring complaint registration, department routing, and real-time communication via WebSockets to enhance public transparency and efficiency.",
-    image: "/nepal-gov-connect.png",
-    tags: ["Django", "Django REST Framework", "Channels", "WebSockets", "PostgreSQL", "JavaScript"],
-    githubUrl: "https://github.com/ChandanM10/Nepal_gov_connect",
-    liveUrl: "https://nepal-gov-connect.onrender.com",
-    slug: "nepal-gov-connect",
+    title: "Nepal career Job portal",
+    description: "description: "A full-stack Nepal job portal that automatically scans and aggregates job postings from multiple sources, enabling job seekers to find opportunities and apply through a unified platform."",
+    image: "/careerproject.png",
+    tags: ["React", "Node.js", "Web Scraping", "PostgreSQL", "JavaScript"],
+    githubUrl: "https://github.com/ChandanM10/NepalCareer",
+    liveUrl: "https://nepal-career.vercel.app",
+    slug: "Nepal-career",
     featured: true,
     date: "2026",
-    client: "Civic Tech Project"
+    client: "Tech Project"
   },
   {
     id: 2,
@@ -96,6 +96,19 @@ const projects = [
     featured: false,
     date: "2025",
     client: "Web Utilities"
+  },
+  {
+    id: 8,
+    title: "Nepal Gov Connect",
+    description: "A full-stack web application connecting citizens with government services in Nepal. Featuring complaint registration, department routing, and real-time communication via WebSockets to enhance public transparency and efficiency.",
+    image: "/nepal-gov-connect.png",
+    tags: ["Django", "Django REST Framework", "Channels", "WebSockets", "PostgreSQL", "JavaScript"],
+    githubUrl: "https://github.com/ChandanM10/Nepal_gov_connect",
+    liveUrl: "https://nepal-gov-connect.onrender.com",
+    slug: "nepal-gov-connect",
+    featured: true,
+    date: "2026",
+    client: "Civic Tech Project"
   }
 ]
 
