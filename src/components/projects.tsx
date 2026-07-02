@@ -9,7 +9,7 @@ const projects = [
   {
     id: 1,
     title: "Nepal career Job portal",
-    description: "description: "A full-stack Nepal job portal that automatically scans and aggregates job postings from multiple sources, enabling job seekers to find opportunities and apply through a unified platform."",
+    description: "A full-stack Nepal job portal that automatically scans and aggregates job postings from multiple sources enabling job seekers to find opportunities and apply through a unified platform."",
     image: "/careerproject.png",
     tags: ["React", "Node.js", "Web Scraping", "PostgreSQL", "JavaScript"],
     githubUrl: "https://github.com/ChandanM10/NepalCareer",
