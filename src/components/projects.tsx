@@ -36,7 +36,7 @@ const projects = [
     id: 3,
     title: "JARVIS Voice Assistant",
     description: "An AI-powered voice assistant operating system capable of voice interaction, intelligent query resolution, task automation, memory management, and execution of OS-level commands.",
-    image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?q=80&w=2070&auto=format&fit=crop",
+    image: "/jarvishaha.webp",
     tags: ["Python", "Speech Recognition", "NLP", "AI Agents", "Automation"],
     githubUrl: "https://github.com/ChandanM10/JARVIS_IS_LISTENING",
     liveUrl: "https://github.com/ChandanM10/JARVIS_IS_LISTENING",
