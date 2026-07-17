@@ -20,6 +20,19 @@ const projects = [
     client: "Tech Project"
   },
   {
+  id: 2,
+  title: "ClipBoat.ai",
+  description: "An AI-powered content automation platform that transforms long-form videos into engaging short clips with automatic captions, intelligent scene detection, and seamless publishing to Instagram and Facebook using official Meta APIs.",
+  image: "/careerproject.png",
+  tags: [ "Next.js", "TypeScript", "FastAPI", "Python", "OpenAI", "FFmpeg", "Meta APIs" ],
+  githubUrl: "https://github.com/ChandanM10/ClipBoat.ai",
+  liveUrl: "https://clipboat.ai",
+  slug: "clipboat-ai",
+  featured: true,
+  date: "2026",
+  client: "Personal AI SaaS Project"
+  },
+  {
     id: 2,
     title: "JARVIS Voice Assistant",
     description: "An AI-powered voice assistant operating system capable of voice interaction, intelligent query resolution, task automation, memory management, and execution of OS-level commands.",
