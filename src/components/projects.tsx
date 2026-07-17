@@ -23,7 +23,7 @@ const projects = [
   id: 2,
   title: "ClipBoat.ai",
   description: "An AI-powered content automation platform that transforms long-form videos into engaging short clips with automatic captions, intelligent scene detection, and seamless publishing to Instagram and Facebook using official Meta APIs.",
-  image: "/careerproject.png",
+  image: "/Homepage.png",
   tags: [ "Next.js", "TypeScript", "FastAPI", "Python", "OpenAI", "FFmpeg", "Meta APIs" ],
   githubUrl: "https://github.com/ChandanM10/ClipBoat.ai",
   liveUrl: "https://clipboat.ai",
@@ -33,7 +33,7 @@ const projects = [
   client: "Personal AI SaaS Project"
   },
   {
-    id: 2,
+    id: 3,
     title: "JARVIS Voice Assistant",
     description: "An AI-powered voice assistant operating system capable of voice interaction, intelligent query resolution, task automation, memory management, and execution of OS-level commands.",
     image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?q=80&w=2070&auto=format&fit=crop",
@@ -46,7 +46,7 @@ const projects = [
     client: "AI Research Project"
   },
   {
-    id: 3,
+    id: 4,
     title: "Fraud Detection System",
     description: "An intelligent financial security system that leverages machine learning to identify suspicious financial transactions in real-time. Employs advanced techniques to handle highly imbalanced datasets.",
     image: "/fraud-detection.jpeg",
@@ -59,7 +59,7 @@ const projects = [
     client: "Fintech Analytics"
   },
   {
-    id: 4,
+    id: 5,
     title: "Employee Churn Prediction",
     description: "A predictive analytics project utilizing machine learning models to identify employee turnover risk, helping HR teams implement proactive retention strategies through data-driven insight visualization.",
     image: "/employee-churn.png",
@@ -72,7 +72,7 @@ const projects = [
     client: "HR Analytics"
   },
   {
-    id: 5,
+    id: 6,
     title: "Predicting Solar Energy Production",
     description: "A regression modeling project predicting annual solar energy production. Utilizes geographical variables, weather attributes, and installation parameters to optimize clean energy forecasting.",
     image: "/solar.jpg.webp",
@@ -85,7 +85,7 @@ const projects = [
     client: "Clean Energy Analytics"
   },
   {
-    id: 6,
+    id: 7,
     title: "Clustering Solar Energy Production",
     description: "An unsupervised machine learning project segmenting geographical areas based on solar energy patterns using K-Means and data visualization to optimize location routing for clean energy grids.",
     image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2070&auto=format&fit=crop",
@@ -98,7 +98,7 @@ const projects = [
     client: "Clean Energy Research"
   },
   {
-    id: 7,
+    id: 8,
     title: "Media Downloader",
     description: "A responsive web application enabling users to download media content from various social media networks seamlessly with proper backend parsing.",
     image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=2036&auto=format&fit=crop",
@@ -111,7 +111,7 @@ const projects = [
     client: "Web Utilities"
   },
   {
-    id: 8,
+    id: 9,
     title: "Nepal Gov Connect",
     description: "A full-stack web application connecting citizens with government services in Nepal. Featuring complaint registration, department routing, and real-time communication via WebSockets to enhance public transparency and efficiency.",
     image: "/nepal-gov-connect.png",
