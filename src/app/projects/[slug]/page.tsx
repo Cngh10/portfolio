@@ -8,6 +8,36 @@ import { projects } from "@/components/projects"
 
 // Enhanced project data with more details
 const projectDetails = {
+"nepal-career": {
+  overview:
+    "NepalCareer is an AI-powered job discovery and career platform designed specifically for IT professionals in Nepal. It aggregates job listings from multiple trusted sources, intelligently matches opportunities to user skills, and streamlines the application process through automation, helping job seekers discover and apply for relevant positions efficiently.",
+  process:
+    "Developed a modern full-stack application using Next.js and TypeScript for the frontend with FastAPI powering backend APIs. Implemented automated job aggregation from company career pages and public job portals, integrated AI-driven job matching based on skills and experience, and built dashboards for saved jobs, application tracking, and personalized recommendations. Designed scalable REST APIs and optimized data synchronization for continuous job updates.",
+  features: [
+    "AI-powered job recommendation engine based on user skills and experience",
+    "Automated job aggregation from multiple Nepal-based company career pages and public job portals",
+    "Application tracking dashboard with saved jobs and application history",
+    "Smart search with filters for role, location, experience, and technology stack",
+    "Email notifications for newly matched jobs and career opportunities",
+    "Responsive user interface optimized for desktop and mobile devices"
+  ],
+  challenges:
+    "One of the primary challenges was collecting and normalizing job data from multiple sources with different page structures while avoiding duplicate listings. This was addressed by implementing a modular scraping architecture, standardized data processing pipeline, and intelligent duplicate detection using job metadata.",
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "FastAPI",
+    "Python",
+    "PostgreSQL",
+    "REST API",
+    "Playwright",
+    "Tailwind CSS"
+  ],
+  timeline: "Ongoing",
+  role: "Full Stack AI Developer",
+  client: "Personal AI SaaS Project",
+
+},
   "nepal-gov-connect": {
     overview:
       "Nepal Gov Connect is a centralized platform connecting citizens with government authorities in Nepal. It offers public issue reporting, citizen-to-authority routing, and real-time status updates to bridge the communication gap, fostering civic participation and enhancing public accountability.",
